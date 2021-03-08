@@ -1,0 +1,1 @@
+a = 10. --a lấy kết quả sau khi giảm 1 đơn vị nên a =9, a++ lấy kết quả sau trước khi tăng 1 đơn vị nên a = 9 nên kết quả là x = 9 + 9 = 18.
