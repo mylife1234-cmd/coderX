@@ -1,0 +1,2 @@
+tuy hai object này có các thuộc tính giống nhau nhưng trong bộ nhớ hai object này được lưu ở hai địa chỉ khác nhau nên chúng ko thể bằng nhau dc
+nên kết quả là a === b là false
