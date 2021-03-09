@@ -1,0 +1,1 @@
+vì hai aray a và b tuy có các giá trị cùng nhau nhưng địa chỉ mà chứng được lưu trong bộ nhớ là khác nhau nên a===b là false
