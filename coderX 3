@@ -1,0 +1,15 @@
+*, for .. in trả về index
+ví dụ:
+var a = [1,2,3];
+for(var i in a){
+  console.log(i);
+};
+Kết quả là 0,1 2;
+
+*, for .. òf trả về value
+ví dụ:
+var a = [1,2,3];
+for(var i in a){
+  console.log(i);
+};
+Kết quả là 1,2 3;
