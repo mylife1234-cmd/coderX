@@ -1,0 +1,9 @@
+var country = ['English','Japan','VietNam'];
+var country2 = ['France'];
+country.concat(country2);
+country.push('Spani');
+country.pop();
+country.shift();
+country.unshift('Korea','Singapore');
+console.log(country.slice(2));
+country;
