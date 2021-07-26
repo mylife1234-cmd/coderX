@@ -1,0 +1,12 @@
+var fs = require('fs');
+var text = fs.readFileSync('./data.json', {encoding : 'utf8'});
+var textObject = JSON.parse(text);
+var information = {
+    name: 'Cuong',
+    age: '21'
+}
+var informationArray =[];
+informationArray.push(information);
+informationArray.push(textObject);
+var textInformation = JSON.stringify(informationArray);
+fs.writeFileSync('./data.json',textInformation);
