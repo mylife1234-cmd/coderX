@@ -1,0 +1,2 @@
+var a1 = document.getElementsByTagName('p')
+a1.className = foo;
